@@ -38,7 +38,7 @@ Feature: Main Page
     And I click the read more button from the learn the fundamentals area
     Then I will be redirected to the fundamentals page
 
-  Scenario: Verify the questions link
+    Scenario: Verify the questions link
     Given I am on the main page of the website
     When I click on questions link
     Then I will be redirected to the frequently asked questions area
